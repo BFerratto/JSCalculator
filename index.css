@@ -7,12 +7,12 @@ body {
 .container{
 	width: 325px;
 	height: auto;
-	margin:100px auto;
+	margin:90px auto;
 	padding: 20px 20px 10px 0;
-	background: #FAB;
+	background: #ef9221;
 	border-radius: 10px;
-	box-shadow: 0px 4px #800080;
-	border: 3px solid purple;
+	box-shadow: 0px 5px 0px 15px 17px rgba(0, 0, 0, 0.2);
+
 }
 section{
 	width: 100%;
@@ -22,7 +22,7 @@ section{
 	width: 98%;
 	height: auto;
 	padding: 10px;
-	background: #FAFA00;
+	background: #ef9221;
 	text-align: right;
 }
 .top .opKey{
@@ -35,16 +35,18 @@ section{
 }
 .screen{
 	height: 40px;
-	width: 210px;
+	width: 200px;
 	padding: 0 10px;
 	border-radius: 10px;
-	box-shadow: 0px 4px #800080;
-	background-color:red;
+	box-shadow: px 4px rgba(0, 0, 0, 0.2);
+	background-color:rgba(0, 0, 0, 0.2);
 	font-size: 25px;
 	text-align: right;
+	text-shadow: 1px 1xp 2px rgba(0, 0, 0, 0.2);
 	line-height: 40px;
 	color: white;
 	letter-spacing: 2px;
+	float: right;
 }
 .keys, .top{
 	overflow: hidden;
@@ -55,7 +57,7 @@ section{
 	height: 40px;
 	position: relative;
 	border-radius: 10px;
-	box-shadow: 0px 4px #800080;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
 	margin: 10px 6px 10px 6px;
 	color: black;
 	font-weight: bolder;
@@ -64,13 +66,15 @@ section{
 	top: 0;
 	text-align: center;
 	outline: none;
+	font-size: 20px;
+	background: white;
 
 }
 .opKey{
-	background-color: orange;
+	background-color: #55e065;
 }
 button:hover{
-	background-color: blue;
+	background-color: #e86620;
 	color: white;
 	outline: none;
 }
