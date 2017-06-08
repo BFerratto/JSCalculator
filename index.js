@@ -77,6 +77,6 @@ $(function() {
 		}
 		v1= 0;
 		op = null;
-		screen.html(finalValue);
+		screen.html(finalValue.toFixed(2));
 })
 });

@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font: bold 14px Arial, sans-serif;
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
 }
 .container{
 	width: 325px;
@@ -47,6 +48,8 @@ section{
 	color: white;
 	letter-spacing: 2px;
 	float: right;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 .keys, .top{
 	overflow: hidden;
